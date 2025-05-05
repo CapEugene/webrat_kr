@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Raleway } from "next/font/google";
+import { Raleway } from "next/font/google";
 import "./globals.css";
 
-const geistRaleway = Raleway({
-  variable: "--font-geist-raleway",
+const raleway = Raleway({
+  variable: "--font-raleway",
   subsets: ["latin"],
 });
 
@@ -18,8 +18,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={"min-h-screen w-full bg-white" + geistRaleway.variable}>
+    <html lang="en" className={raleway.className}>
+      <body className={`min-h-screen w-full bg-white ${raleway.variable}`}>
         {children}
       </body>
     </html>
