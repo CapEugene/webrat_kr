@@ -4,7 +4,7 @@ import Icons from "../ui/icons";
 export function Header() {
   return (
     <header className="bg-[#FF751F] w-full py-2 px-24 flex justify-between items-center">
-      <Link href="/" className=" flex items-center gap-1">
+      <Link href="/" className="flex items-center gap-1">
         <Icons.RatIcon className="w-16 h-16 text-white" />
         <Icons.LogoIcon className="w-48 h-16 text-white" />
       </Link>

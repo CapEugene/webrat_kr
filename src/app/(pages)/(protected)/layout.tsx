@@ -1,3 +1,4 @@
+import { Footer } from "@/components/desktop/footer";
 import { Header } from "@/components/desktop/header";
 
 export default function MainLayout({
@@ -9,6 +10,7 @@ export default function MainLayout({
     <div className="bg-white min-h-screen w-full flex flex-col">
       <Header />
       <main className="w-full">{children}</main>
+      <Footer />
     </div>
   );
 }
