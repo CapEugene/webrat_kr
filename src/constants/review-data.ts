@@ -1,0 +1,40 @@
+import { ReviewData } from "@/types/review";
+
+export const REVIEW_DATA: ReviewData[] = [
+  {
+    id: "review1",
+    userId: "user1",
+    username: "User1",
+    gameId: "game1",
+    gameName: "Game Title 1",
+    rating: 3,
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum, mi maximus ornare semper, nunc lorem finibus mauris, ac bibendum diam ante et leo. Donec porttitor justo vitae est molestie iaculis. Sed placerat velit odio, et pretium enim placerat eget. Praesent rutrum libero in arcu tincidunt laoreet. Suspendisse fermentum, nunc nec porta hendrerit, lorem urna iaculis urna, nec viverra ligula mauris a neque. Quisque vel faucibus tellus. Praesent sed tempus nibh, ut dapibus risus. Praesent velit turpis, dapibus vel tristique eget, ultrices eu sem. Quisque tincidunt mi quis quam consequat gravida. Morbi leo leo, rhoncus vitae tincidunt at, rhoncus non leo. Donec fringilla lorem semper lacus efficitur euismod. Maecenas condimentum lacinia quam, in pharetra nunc semper eget. Cras facilisis, enim sed rhoncus mollis, purus diam commodo nunc, quis eleifend velit eros id nisl. Donec mauris metus, dapibus fringilla felis id, fermentum mattis dui. Etiam condimentum mattis quam, id fringilla nulla aliquet vel.",
+    date: "2025-09-16",
+    status: "pending",
+    moderationComment: "",
+  },
+  {
+    id: "review2",
+    userId: "user2",
+    username: "User2",
+    gameId: "game2",
+    gameName: "Game Title 2",
+    rating: 9,
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum, mi maximus ornare semper, nunc lorem finibus mauris, ac bibendum diam ante et leo. Donec porttitor justo vitae est molestie iaculis. Sed placerat velit odio, et pretium enim placerat eget. Praesent rutrum libero in arcu tincidunt laoreet. Suspendisse fermentum, nunc nec porta hendrerit, lorem urna iaculis urna, nec viverra ligula mauris a neque. Quisque vel faucibus tellus. Praesent sed tempus nibh, ut dapibus risus. Praesent velit turpis, dapibus vel tristique eget, ultrices eu sem. Quisque tincidunt mi quis quam consequat gravida. Morbi leo leo, rhoncus vitae tincidunt at, rhoncus non leo. Donec fringilla lorem semper lacus efficitur euismod. Maecenas condimentum lacinia quam, in pharetra nunc semper eget. Cras facilisis, enim sed rhoncus mollis, purus diam commodo nunc, quis eleifend velit eros id nisl. Donec mauris metus, dapibus fringilla felis id, fermentum mattis dui. Etiam condimentum mattis quam, id fringilla nulla aliquet vel.",
+    date: "2025-09-26",
+    status: "pending",
+    moderationComment: "",
+  },
+  {
+    id: "review3",
+    userId: "user3",
+    username: "User3",
+    gameId: "game1",
+    gameName: "Game Title 1",
+    rating: 7,
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum, mi maximus ornare semper, nunc lorem finibus mauris, ac bibendum diam ante et leo. Donec porttitor justo vitae est molestie iaculis. Sed placerat velit odio, et pretium enim placerat eget.",
+    date: "2025-09-30",
+    status: "pending",
+    moderationComment: "",
+  },
+];
