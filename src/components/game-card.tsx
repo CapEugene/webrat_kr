@@ -9,7 +9,7 @@ export function GameCard({ id, rating, title, info }: GameData) {
         <div className="flex justify-center my-4">
           <div className="bg-white p-2 rounded-md w-60 h-60 flex items-center justify-center">
             <Image
-              src="../../public/file.svg"
+              src="/window.svg"
               alt={title}
               width={48}
               height={48}
