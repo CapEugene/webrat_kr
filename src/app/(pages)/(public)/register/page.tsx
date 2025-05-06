@@ -14,7 +14,7 @@ export default function Register() {
                         <input
                             id="login"
                             type="text"
-                            className="w-full p-3 border border-black bg-[#ffded0] rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                            className="w-full text-black p-3 border border-black bg-[#ffded0] rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
                         />
                     </div>
 
@@ -25,7 +25,7 @@ export default function Register() {
                         <input
                             id="password"
                             type="password"
-                            className="w-full p-3 border border-black bg-[#ffded0] rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                            className="w-full text-black p-3 border border-black bg-[#ffded0] rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
                         />
                     </div>
 
@@ -36,7 +36,7 @@ export default function Register() {
                         <input
                             id="confirm-password"
                             type="password"
-                            className="w-full p-3 border border-black bg-[#ffded0] rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                            className="w-full text-black p-3 border border-black bg-[#ffded0] rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
                         />
                     </div>
 

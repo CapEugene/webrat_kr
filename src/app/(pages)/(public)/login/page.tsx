@@ -14,7 +14,7 @@ export default function Login() {
                         <input
                             id="login"
                             type="text"
-                            className="w-full p-3 border border-black bg-[#ffded0] rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                            className="w-full p-3 border text-black border-black bg-[#ffded0] rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
                         />
                     </div>
 
@@ -25,7 +25,7 @@ export default function Login() {
                         <input
                             id="password"
                             type="password"
-                            className="w-full p-3 border border-black bg-[#ffded0] rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                            className="w-full p-3 border text-black border-black bg-[#ffded0] rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
                         />
                     </div>
                     <div className="flex items-center justify-center">
