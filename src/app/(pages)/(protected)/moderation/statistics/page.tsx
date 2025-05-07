@@ -151,7 +151,7 @@ export default function ModerationStatistics() {
             </div>
 
             {/* Таблица пользователей */}
-            <div className="border border-black rounded-lg bg-[#fff8f4] overflow-hidden">
+            <div className="border border-black rounded-lg bg-[#ffded0] overflow-hidden">
                 {filteredUsers.length > 0 ? (
                     filteredUsers.map((user) => (
                         <div key={user.id} className="p-6 border-b border-black last:border-b-0">

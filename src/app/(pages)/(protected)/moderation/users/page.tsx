@@ -93,7 +93,7 @@ export default function UserModeration() {
                 </Link>
             </div>
 
-            <div className="border rounded-lg p-6 bg-[#ffded0]">
+            <div className="border border-black rounded-lg p-6 bg-[#ffded0]">
                 {users.map((user) => (
                     <div key={user.id} className="mb-8 last:mb-0">
                         <div className="flex items-center mb-4">
@@ -127,7 +127,7 @@ export default function UserModeration() {
                                     </button>
                                 </div>
 
-                                <div className="border rounded-md p-3 bg-white">
+                                <div className="border border-black rounded-md p-3 bg-white">
                                     <p className="mb-2 font-medium text-black">Комментарий:</p>
                                     <textarea
                                         value={comments[user.id]}
@@ -138,7 +138,7 @@ export default function UserModeration() {
                                 </div>
                             </div>
 
-                            <div className="border border-secondary rounded-md p-3 bg-white">
+                            <div className="border border-black rounded-md p-3 bg-white">
                                 <p className="mb-2 font-medium text-black">Комментарии по блокировке/разблокировке</p>
                                 {user.blockHistory.length > 0 ? (
                                     <div className="max-h-32 overflow-y-auto">
@@ -158,7 +158,7 @@ export default function UserModeration() {
                             </div>
                         </div>
 
-                        {user !== users[users.length - 1] && <hr className="my-6 border-secondary" />}
+                        {user !== users[users.length - 1] && <hr className="my-6 border-black" />}
                     </div>
                 ))}
             </div>

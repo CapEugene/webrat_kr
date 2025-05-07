@@ -1,4 +1,4 @@
-import { GameCard } from "@/components/game-card";
+import { GameCard } from "@/components/ui/game-card";
 import { GAMES_DATA } from "@/constants/game-data";
 
 export default function MainPage() {

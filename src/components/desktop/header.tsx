@@ -6,7 +6,7 @@ import { useState } from "react";
 
 export function Header() {
   const [isUserModerator, setIsUserModerator] = useState<Boolean>(true);
-  const [isUserAdmin, setIsUserAdmin] = useState<Boolean>(false);
+  const [isUserAdmin, setIsUserAdmin] = useState<Boolean>(true);
 
   return (
     <header className="bg-[#FF751F] w-full py-2 px-24 flex justify-between items-center">

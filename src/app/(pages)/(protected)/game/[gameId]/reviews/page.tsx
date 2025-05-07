@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import { ThumbsUp } from "lucide-react";
-import { FeedbackModal } from "@/components/modal";
+import { FeedbackModal } from "@/components/modals/modal";
 import { formatDate } from "@/lib/utils";
 
 interface Review {
@@ -116,13 +116,13 @@ export default function ReviewsPage() {
             height={150}
           />
         </div>
-        <div className="border bg-[#fff8f4] rounded-md w-90 p-2 mb-4 text-center text-black">
+        <div className="border bg-[#ffded0] rounded-md w-90 p-2 mb-4 text-center text-black">
           <span className="text-3xl font-bold">7.5/10</span>
         </div>
       </div>
 
       <form onSubmit={handleSubmitReview} className="mb-8">
-        <div className="border border-black rounded-md p-4 bg-[#fff8f4]">
+        <div className="border border-black rounded-md p-4 bg-[#ffded0]">
           <div className="flex justify-between items-center mb-4">
             <label htmlFor="review" className="text-lg text-black font-medium">
               Введите отзыв
@@ -131,7 +131,7 @@ export default function ReviewsPage() {
               <select
                 value={newRating}
                 onChange={(e) => setNewRating(Number(e.target.value))}
-                className="border border-black rounded-md p-1 text-black"
+                className="border border-black rounded-md p-1 text-black bg-white"
               >
                 <option value="0">0/10</option>
                 {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((rating) => (
@@ -146,7 +146,7 @@ export default function ReviewsPage() {
             id="review"
             value={newReview}
             onChange={(e) => setNewReview(e.target.value)}
-            className="w-full h-32 p-2 border border-black rounded-md mb-4 text-black"
+            className="w-full h-32 p-2 border border-black rounded-md mb-4 text-black bg-white"
             placeholder="Напишите ваш отзыв здесь..."
           />
           <div className="flex justify-end">
