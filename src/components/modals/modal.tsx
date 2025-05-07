@@ -1,11 +1,6 @@
 "use client"
+import { FeedbackModalProps } from "@/types/modal"
 import { X } from "lucide-react"
-
-interface FeedbackModalProps {
-  isOpen: boolean
-  onClose: () => void
-  title?: string
-}
 
 export function FeedbackModal({ isOpen, onClose, title = "Пожаловаться" }: FeedbackModalProps) {
   if (!isOpen) return null
